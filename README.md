@@ -34,6 +34,11 @@ git clone git@github.com:tilomitra/bedrock.git <project-name>
 cd <project-name>
 npm install
 ```
+Bedrock also uses Grunt. If you don't have Grunt installed globally install it now.
+
+```
+npm install -g grunt
+```
 Then, open config/connections.js and update your database connection details.
 
 Then, run the migrations to create the relevant database tables.
